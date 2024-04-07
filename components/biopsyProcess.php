@@ -8,7 +8,7 @@
         <div class="biopsy-process-container__accordion__title">
                 <span class="biopsy-process-container__arrow"> 
                         <img src = "../assets/downarrow.webp"  alt = "downarrow-icon"/>
-                </span> 
+                </span>
                 <?php echo $details[0]; ?></div>
         <div class="biopsy-process-container__accordion__content"><?php echo $details[1]; ?></div>
     </div>

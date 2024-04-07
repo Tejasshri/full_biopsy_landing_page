@@ -19,7 +19,9 @@
    <link rel="stylesheet" href="./styles/costOfBiopsy.css">
    <link rel="stylesheet" href="./styles/typesOfBiopsy.css">
  <link rel="stylesheet" href="./styles/modalBox.css">
+ <link rel="stylesheet" href="./styles/ourlocation.css">
    <script src="./javascript/index.js" defer></script>
+   <script src="./javascript/location.js" defer></script>
 
 </head>
 <body>
@@ -51,6 +53,8 @@
 
     <!-- costofbiopsy -->
     <?php include("./components/costOfBiopsy.php") ?>
+
+    <?php include "./components/ourLocations.php" ?>
 
     <!-- faqs -->
     <?php include("./components/biopsyFaqs.php") ?>
